@@ -6,7 +6,8 @@
  "engine": "InnoDB",
  "field_order": [
   "personname",
-  "personlastname"
+  "personlastname",
+  "number"
  ],
  "fields": [
   {
@@ -18,12 +19,17 @@
    "fieldname": "personlastname",
    "fieldtype": "Data",
    "label": "Lastname"
+  },
+  {
+   "fieldname": "number",
+   "fieldtype": "Data",
+   "label": "\u0e4c\u0e35Number"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-30 12:04:27.900834",
+ "modified": "2025-09-24 11:58:41.676569",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "person",
